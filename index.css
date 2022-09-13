@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0px;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    background-color: rgb(89, 1, 99);
+    color: white;
+}
+.nav{
+    margin-top: 30px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav>div>img{
+    height: 10vh;
+    width: 10vw;
+}
+.nav>div{
+    font-size: 30px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.about img{
+    height: 300px;
+    width: 250px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline ;
+}
+.about>div:first-child>div{
+    font-size: 50px;
+    margin-top: -25px;
+    font-weight: bolder;
+}
+.about>div:first-child>h3{
+    margin-top: -5px;
+    font-size: 30px;
+}
+.about>div:first-child>p{
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: justify;
+}
+.about>div:first-child button{
+    background-color: rgb(3, 126, 17);
+    padding: 10px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+   
+}
+.about>div:first-child a{
+    text-decoration: none;
+    color: white;
+}
+.about>div:first-child img{
+    height: 30px;
+    width: 40px;
+}
+.about>div:last-child {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.skills>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+}
