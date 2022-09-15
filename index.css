@@ -12,7 +12,7 @@ body{
     margin-top: 30px;
     margin-left: 15px;
     display: grid;
-    grid-template-columns: 40% 15% 15% 15% 15%;
+    grid-template-columns: 25% 9% 20% 15% 11% 12% 12%;
     
 }
 .nav a{
@@ -24,11 +24,12 @@ body{
     width: 10vw;
 }
 .nav>div{
-    font-size: 30px;
+    font-size: 25px;
 }
 .about{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    text-align: center;
 }
 .about img{
     height: 300px;
@@ -69,16 +70,191 @@ h1{
 .about>div:first-child img{
     height: 30px;
     width: 40px;
+    
 }
-.about>div:last-child {
+.about>div:last-child img{
     margin-top: 50px;
     margin-left: 50px;
+    border-radius: 30px;
+}
+.skills{
+    text-align: center;
 }
 .skills>div{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: 150px 150px;
 }
 .skills img{
     height: 100px;
     width: 100px;
 }
+.proficiency{
+    text-align: center;
+}
+.proficiency>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.proficiency>div>div img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -20px;
+}
+.projects{
+    text-align: center;
+}
+.projects>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.projects>div>div img{
+    height: 400px;
+    width: 450px;
+}
+.statistics{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.contact>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact>div>a img{
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 900px) {
+    .nav>div{
+        font-size: 20px;
+    }
+    .about{
+        grid-template-columns: 2fr 1fr;
+    }
+    .about img{
+        height: 260px;
+        width: 225px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .about>div:first-child>div{
+        font-size: 35px;
+        margin-top: -5px;
+    }
+    .about>div:first-child>h3{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    .about>div:first-child>p{
+        margin-top: -10px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .about>div:first-child button{
+        width: 150px;
+        font-size: 15px;
+    }
+    .about>div:first-child img{
+        height: 20px;
+        width: 25px;
+        
+    }
+    
+    .skills>div{
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows: repeat(3,150px);
+    }
+    .proficiency>div{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,200px);
+    }
+    .projects>div{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .projects>div>div img{
+        height: 300px;
+        width: 350px;
+    }
+    .contact>div>a img{
+        height: 30px;
+        width: 30px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .nav>div{
+        font-size: 7px;
+    }
+    .about{
+        grid-template-columns: 1fr 1fr;
+    }
+    .about img{
+        height: 160px;
+        width: 125px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .about>div:first-child>div{
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .about>div:first-child>h3{
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .about>div:first-child>p{
+        margin-top: -10px;
+        font-size: 8px;
+        text-align: justify;
+    }
+    .about>div:first-child button{
+        width: 80px;
+        font-size: 8px;
+    }
+    .about>div:first-child img{
+        height: 10px;
+        width: 15px;
+        
+    }
+    .about>div:last-child img{
+        margin-top: 70px;
+    }
+    .skills>div{
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(5,150px);
+    }
+    .proficiency>div{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,200px);
+    }
+    .projects>div{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .projects>div>div img{
+        height: 200px;
+        width: 250px;
+    }
+    .contact>div>a img{
+        height: 20px;
+        width: 20px;
+    }
+    .footer{
+        font-size: 9px;
+    }
+}
+
