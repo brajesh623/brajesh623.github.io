@@ -474,6 +474,9 @@ h1{
         justify-items: center;
         gap:20px
     }
+    .calendar{
+        background-color: white;
+    }
     .contact>div>a img{
         height: 20px;
         width: 20px;
