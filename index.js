@@ -1,1 +1,1 @@
-  GitHubCalendar(".calendar", "brajesh623", { responsive: true });
+  GitHubCalendar(".calendar", "gautamprajapat8", { responsive: true });
