@@ -5,7 +5,7 @@ body{
     margin: 0px;
     margin-left: 10vw;
     margin-right: 5vw;
-    background-color: rgb(89, 1, 99);
+    background-color: rgb(199, 6, 220);
     color: white;
 }
 .nav{
@@ -19,7 +19,7 @@ body{
     margin-left: -10vw;
     /* width:93vw; */
     margin-right: -5vw;
-    background-color: rgb(51, 1, 56);
+    background-color: rgb(98, 6, 196);
     
 }
 .nav a{
