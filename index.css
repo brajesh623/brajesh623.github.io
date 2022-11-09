@@ -1,11 +1,12 @@
 html {
     scroll-behavior: smooth;
+    font-family:'Open Sans',sans-serif;
   }
 body{
     margin: 0px;
     margin-left: 10vw;
     margin-right: 5vw;
-    background-color: rgb(199, 6, 220);
+    background-color:black;
     color: white;
 }
 .nav{
@@ -19,14 +20,17 @@ body{
     margin-left: -10vw;
     /* width:93vw; */
     margin-right: -5vw;
-    background-color: rgb(98, 6, 196);
+    background-color:#555555;
     
 }
 .nav a{
     text-decoration: none;
     color: white;
 }
-.nav>div>img{
+.nav>div>a:hover{
+    color: #506aff;
+}
+.nav>div>a>img{
     height: 50px;
     width: 50px;
 }
@@ -63,12 +67,15 @@ h1{
     text-align: justify;
 }
 .about>div:first-child button{
-    background-color: rgb(3, 126, 17);
+    background-color: blue;
     padding: 10px;
     width: 200px;
     font-weight: bolder;
     font-size: 25px;
-   
+    border-radius: 10px;
+}
+.about>div:first-child button:hover{
+    background-color: transparent;
 }
 .about>div:first-child a{
     text-decoration: none;
@@ -179,6 +186,14 @@ h1{
     justify-content: center;
     align-items: center;
   }
+.streak>img:first-child{
+    width:50%;
+    height:230px;
+}
+.streak>img:last-child{
+    width:49%;
+    height:235px;
+}
 .contact{
     text-align: center;
 }
@@ -199,7 +214,7 @@ h1{
     .nav>div{
         font-size: 15px;
     }
-    .nav>div>img{
+    .nav>div>a>img{
         height: 50px;
         width: 50px;
     }
@@ -260,6 +275,12 @@ h1{
     .stat{
         grid-template-columns: repeat(3, 1fr);
     }
+    .streak>img:first-child{
+        height:150px;
+    }
+    .streak>img:last-child{
+        height:155px;
+    }
     .contact>div>a img{
         height: 30px;
         width: 30px;
@@ -275,7 +296,7 @@ h1{
     .nav>div{
         font-size: 10px;
     }
-    .nav>div>img{
+    .nav>div>a>img{
         height: 30px;
         width: 30px;
     }
@@ -335,6 +356,14 @@ h1{
     .stat{
         grid-template-columns: repeat(2, 1fr);
     }
+    .streak>img:first-child{
+        width: 100%;
+        height:200px;
+    }
+    .streak>img:last-child{
+        width: 100%;
+        height:205px;
+    }
     .contact>div>a img{
         height: 30px;
         width: 30px;
@@ -347,7 +376,7 @@ h1{
     .nav>div{
         font-size: 7px;
     }
-    .nav>div>img{
+    .nav>div>a>img{
         height: 20px;
         width: 20px;
     }
@@ -411,6 +440,14 @@ h1{
         justify-items: center;
         gap:20px
     }
+    .streak>img:first-child{
+        width: 100%;
+        height:150px;
+    }
+    .streak>img:last-child{
+        width: 100%;
+        height:155px;
+    }
     .contact>div>a img{
         height: 20px;
         width: 20px;
@@ -424,7 +461,7 @@ h1{
     .nav>div{
         font-size: 5px;
     }
-    .nav>div>img{
+    .nav>div>a>img{
         height: 15px;
         width: 15px;
     }
@@ -487,6 +524,14 @@ h1{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         gap:20px
+    }
+    .streak>img:first-child{
+        width: 100%;
+        height:100px;
+    }
+    .streak>img:last-child{
+        width: 100%;
+        height:105px;
     }
     .calendar{
         background-color: #506aff;
