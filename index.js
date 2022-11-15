@@ -12,3 +12,6 @@ sleep(100).then(() => {
   document.querySelector("#contrib-number").innerText="";
   document.querySelector("#contrib-number").innerText=x+"+";
 })
+document.querySelector(".resume").addEventListener("click",function(){
+  window.open("https://drive.google.com/file/d/1qswzGix2GHTPruayuqHvJrei7Z4moFou/view?usp=share_link","_blank");
+});
