@@ -41,10 +41,19 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     text-align: center;
+    gap:6%;
 }
 .about img{
     height: 300px;
     width: 250px;
+}
+#profilepic{
+    display: flex;
+    align-items: center;
+}
+#profilepic img{
+    width: 90%;
+    height:60%;
 }
 
 h1{
@@ -86,8 +95,8 @@ h1{
     
 }
 .about>div:last-child img{
-    margin-top: 50px;
-    margin-left: 50px;
+    /* margin-top: 50px;     */
+    /* margin-left: 50px; */
     border-radius: 30px;
 }
 .skills{
@@ -386,9 +395,22 @@ h1{
     .about{
         grid-template-columns: 1fr 1fr;
     }
-    .about img{
+    /* .about img{
         height: 160px;
         width: 125px;
+    } */
+
+    /* .about>div>img{
+        display: block;
+        margin:auto;
+        height:60%;
+        width:70%;
+    } */
+
+    #profilepic{
+        text-align: center;
+        /* border:solid red; */
+
     }
     h1{
         font-size: 15px;
@@ -415,9 +437,9 @@ h1{
         width: 15px;
         
     }
-    .about>div:last-child img{
+    /* .about>div:last-child img{
         margin-top: 70px;
-    }
+    } */
     .skills>div{
         grid-template-columns:repeat(2,1fr);
         grid-template-rows: repeat(5,150px);
