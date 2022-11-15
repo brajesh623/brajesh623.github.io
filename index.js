@@ -1,4 +1,4 @@
-GitHubCalendar(".calendar", "brajesh623", { responsive: true });
+GitHubCalendar(".calendar", "brajesh623", { responsive: true,tooltips:true });
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 }

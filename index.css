@@ -50,7 +50,6 @@ body{
 h1{
     font-size: 50px;
     font-weight: bolder;
-    text-decoration: underline ;
 }
 .about>div:first-child>div{
     font-size: 50px;
@@ -206,6 +205,10 @@ h1{
 .contact>div>a img{
     height: 50px;
     width: 50px;
+}
+#about,#skills,#proficiency,#projects,#statistics,#contact{
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 @media (max-width: 900px) {
     .nav{
